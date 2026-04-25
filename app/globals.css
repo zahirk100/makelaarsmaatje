@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1F3D2B;
+  background: linear-gradient(180deg, #FAF6EE 0%, #F2ECDE 100%);
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: "Fraunces", Georgia, serif;
+}
